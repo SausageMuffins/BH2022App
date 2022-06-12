@@ -3,114 +3,114 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function EnterParticulars() {
   return (
-    <View style={styles.EnterParticulars}>
-      <View style={styles.Group835}>
-        <View style={styles.Group835}>
-          <Text style={styles.Txt699}>NS/SV Training</Text>
-          <View style={styles.Group247}>
-            <Text style={styles.Txt275}>Start Date</Text>
-            <Text style={styles.Txt892}>End Date</Text>
+    <View style={ParticularsStyle.EnterParticulars}>
+      <View style={ParticularsStyle.Group835}>
+        <View style={ParticularsStyle.Group835}>
+          <Text style={ParticularsStyle.Txt699}>NS/SV Training</Text>
+          <View style={ParticularsStyle.Group247}>
+            <Text style={ParticularsStyle.Txt275}>Start Date</Text>
+            <Text style={ParticularsStyle.Txt892}>End Date</Text>
           </View>
-          <View style={styles.Group4104}>
-            <Text style={styles.Txt087}>DD/MM/YYYY</Text>
+          <View style={ParticularsStyle.Group4104}>
+            <Text style={ParticularsStyle.Txt087}>DD/MM/YYYY</Text>
           </View>
-          <Text style={styles.Txt7106}>Occupation/Designation</Text>
-          <View style={styles.Group399}>
-            <Text style={styles.Txt9210}>Save and Go Back</Text>
+          <Text style={ParticularsStyle.Txt7106}>Occupation/Designation</Text>
+          <View style={ParticularsStyle.Group399}>
+            <Text style={ParticularsStyle.Txt9210}>Save and Go Back</Text>
           </View>
-          <View style={styles.Rectangle126} />
-          <Text style={styles.Txt114}>Company Particulars</Text>
-          <View style={styles.Rectangle124} />
-          <Text style={styles.Txt250}>Name</Text>
-          <Text style={styles.Txt460}>Address</Text>
-          <View style={styles.Rectangle125} />
-          <Text style={styles.Txt892}>Phone</Text>
-          <View style={styles.Group71010}>
-            <View style={styles.Group896}>
-              <Text style={styles.Txt087}>DD/MM/YYYY</Text>
+          <View style={ParticularsStyle.Rectangle126} />
+          <Text style={ParticularsStyle.Txt114}>Company Particulars</Text>
+          <View style={ParticularsStyle.Rectangle124} />
+          <Text style={ParticularsStyle.Txt250}>Name</Text>
+          <Text style={ParticularsStyle.Txt460}>Address</Text>
+          <View style={ParticularsStyle.Rectangle125} />
+          <Text style={ParticularsStyle.Txt892}>Phone</Text>
+          <View style={ParticularsStyle.Group71010}>
+            <View style={ParticularsStyle.Group896}>
+              <Text style={ParticularsStyle.Txt087}>DD/MM/YYYY</Text>
             </View>
-            <View style={styles.Group520}>
-              <Text style={styles.Txt087}>DD/MM/YYYY</Text>
+            <View style={ParticularsStyle.Group520}>
+              <Text style={ParticularsStyle.Txt087}>DD/MM/YYYY</Text>
             </View>
           </View>
-          <Text style={styles.Txt289}>Date of Employment</Text>
-          <View style={styles.Rectangle123} />
-          <View style={styles.Group51}>
-            <Text style={styles.Txt6310}>Delete application</Text>
+          <Text style={ParticularsStyle.Txt289}>Date of Employment</Text>
+          <View style={ParticularsStyle.Rectangle123} />
+          <View style={ParticularsStyle.Group51}>
+            <Text style={ParticularsStyle.Txt6310}>Delete application</Text>
           </View>
-          <View style={styles.Group362}>
-            <Text style={styles.Txt9210}>Save and Continue</Text>
+          <View style={ParticularsStyle.Group362}>
+            <Text style={ParticularsStyle.Txt9210}>Save and Continue</Text>
           </View>
         </View>
-        <View style={styles.Group002}>
+        <View style={ParticularsStyle.Group002}>
           <Image
-            style={styles.Vector}
+            style={ParticularsStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A338?alt=media&token=57410986-7571-402f-972f-84be201039fa",
             }}
           />
-          <View style={styles.Group433}>
-            <Text style={styles.Txt835}>Particulars</Text>
+          <View style={ParticularsStyle.Group433}>
+            <Text style={ParticularsStyle.Txt835}>Particulars</Text>
             <Image
-              style={styles.Vector1}
+              style={ParticularsStyle.Vector1}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A339?alt=media&token=faeb1b0d-a964-43cf-883f-ca75d8ecba65",
               }}
             />
             <Image
-              style={styles.Vector2}
+              style={ParticularsStyle.Vector2}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A360?alt=media&token=a952b947-e55a-4471-8388-678917f49a64",
               }}
             />
             <Image
-              style={styles.Vector2}
+              style={ParticularsStyle.Vector2}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A359?alt=media&token=006a1626-aa51-46e5-91ca-fe1b80630215",
               }}
             />
             <Image
-              style={styles.Vector3}
+              style={ParticularsStyle.Vector3}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A361?alt=media&token=3a04c37a-d5fe-4ce9-aeca-85a27113378c",
               }}
             />
             <Image
-              style={styles.Vector}
+              style={ParticularsStyle.Vector}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A362?alt=media&token=ae5d7a73-caee-4be3-bff9-bf410bfb64e8",
               }}
             />
           </View>
           <Image
-            style={styles.Vector}
+            style={ParticularsStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A340?alt=media&token=998c5e5d-2f1b-4b53-96c7-8a2e0aa40665",
             }}
           />
           <Image
-            style={styles.Vector}
+            style={ParticularsStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A341?alt=media&token=cf0c4c29-4e97-4bc3-8978-87382f9c159d",
             }}
           />
           <Image
-            style={styles.Vector}
+            style={ParticularsStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/6zib5b3q9cf-71%3A342?alt=media&token=abee835c-dfed-4f30-8625-a01d573eac32",
             }}
           />
-          <Text style={styles.Txt192}>Make Up Pay </Text>
+          <Text style={ParticularsStyle.Txt192}>Make Up Pay </Text>
         </View>
-        <View style={styles.Group511}>
-          <Text style={styles.Txt6310}>Delete application</Text>
+        <View style={ParticularsStyle.Group511}>
+          <Text style={ParticularsStyle.Txt6310}>Delete application</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const ParticularsStyle = StyleSheet.create({
   EnterParticulars: {
     display: "flex",
     flexDirection: "column",

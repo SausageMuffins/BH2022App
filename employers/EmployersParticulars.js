@@ -3,84 +3,84 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function CertifyingOfficerSDetails() {
   return (
-    <View style={styles.CertifyingOfficerSDetails}>
-      <View style={styles.Group963}>
-        <View style={styles.Component4}>
-          <Text style={styles.Txt1098}>8:55</Text>
+    <View style={EmployersParticularsStyles.CertifyingOfficerSDetails}>
+      <View style={EmployersParticularsStyles.Group963}>
+        <View style={EmployersParticularsStyles.Component4}>
+          <Text style={EmployersParticularsStyles.Txt1098}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={EmployersParticularsStyles.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-I71%3A971%3B14%3A9?alt=media&token=a637697b-79dd-4c20-934b-3cec2c2fa9e9",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={EmployersParticularsStyles.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-I71%3A971%3B14%3A7?alt=media&token=1e036598-2e02-40c7-ae92-181ac4d8e8f0",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={EmployersParticularsStyles.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-I71%3A971%3B14%3A8?alt=media&token=3bf718dd-f549-4885-bb57-1881afffb349",
             }}
           />
         </View>
-        <View style={styles.Group7109}>
-          <Text style={styles.Txt374}>Officer Particulars</Text>
+        <View style={EmployersParticularsStyles.Group7109}>
+          <Text style={EmployersParticularsStyles.Txt374}>Officer Particulars</Text>
           <Image
-            style={styles.Vector3}
+            style={EmployersParticularsStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-71%3A1025?alt=media&token=a84a8832-0b13-4e42-89f8-01de860f9848",
             }}
           />
           <Image
-            style={styles.Vector3}
+            style={EmployersParticularsStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-71%3A1026?alt=media&token=e580333f-84a6-4ea4-8893-973c367036a2",
             }}
           />
           <Image
-            style={styles.Vector3}
+            style={EmployersParticularsStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-71%3A1027?alt=media&token=7824bbaf-c9c2-4e49-b0a5-6438d648074b",
             }}
           />
           <Image
-            style={styles.Vector4}
+            style={EmployersParticularsStyles.Vector4}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qw29zmqko-71%3A1028?alt=media&token=97ebba28-d8ea-43db-8e4b-892ff1dbf1dc",
             }}
           />
         </View>
-        <View style={styles.Group55}>
-          <Text style={styles.Txt886}>Delete application</Text>
+        <View style={EmployersParticularsStyles.Group55}>
+          <Text style={EmployersParticularsStyles.Txt886}>Delete application</Text>
         </View>
-        <View style={styles.Group61}>
-          <Text style={styles.Txt536}>Name</Text>
-          <View style={styles.Rectangle134} />
-          <Text style={styles.Txt178}>Occupation/Designation</Text>
-          <View style={styles.Rectangle133} />
-          <Text style={styles.Txt178}>NRIC / FIN / Passport No.</Text>
-          <View style={styles.Rectangle135} />
-          <Text style={styles.Txt536}>Phone</Text>
-          <View style={styles.Rectangle132} />
-          <Text style={styles.Txt536}>Email</Text>
-          <View style={styles.Rectangle145} />
+        <View style={EmployersParticularsStyles.Group61}>
+          <Text style={EmployersParticularsStyles.Txt536}>Name</Text>
+          <View style={EmployersParticularsStyles.Rectangle134} />
+          <Text style={EmployersParticularsStyles.Txt178}>Occupation/Designation</Text>
+          <View style={EmployersParticularsStyles.Rectangle133} />
+          <Text style={EmployersParticularsStyles.Txt178}>NRIC / FIN / Passport No.</Text>
+          <View style={EmployersParticularsStyles.Rectangle135} />
+          <Text style={EmployersParticularsStyles.Txt536}>Phone</Text>
+          <View style={EmployersParticularsStyles.Rectangle132} />
+          <Text style={EmployersParticularsStyles.Txt536}>Email</Text>
+          <View style={EmployersParticularsStyles.Rectangle145} />
         </View>
-        <View style={styles.Group226}>
-          <Text style={styles.Txt453}>Save and Continue</Text>
+        <View style={EmployersParticularsStyles.Group226}>
+          <Text style={EmployersParticularsStyles.Txt453}>Save and Continue</Text>
         </View>
-        <View style={styles.Group336}>
-          <Text style={styles.Txt453}>Save and Go Back</Text>
+        <View style={EmployersParticularsStyles.Group336}>
+          <Text style={EmployersParticularsStyles.Txt453}>Save and Go Back</Text>
         </View>
       </View>
-      <Text style={styles.Txt635}>Please enter your details.</Text>
+      <Text style={EmployersParticularsStyles.Txt635}>Please enter your details.</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const EmployersParticularsStyles = StyleSheet.create({
   CertifyingOfficerSDetails: {
     display: "flex",
     flexDirection: "column",

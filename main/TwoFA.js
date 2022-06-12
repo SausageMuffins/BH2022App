@@ -1,45 +1,45 @@
 import React from "react";
-import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
+import { StyleSheet, Image, Text, View, ImageBackground, TouchableHighlight } from "react-native";
 
 export default function TwoFA() {
   return (
-    <View style={styles._2faScreen}>
-      <View style={styles.Group092}>
-        <View style={styles.Component1}>
-          <Text style={styles.Txt885}>8:55</Text>
+    <View style={twoFAStyles._2faScreen}>
+      <View style={twoFAStyles.Group092}>
+        <View style={twoFAStyles.Component1}>
+          <Text style={twoFAStyles.Txt885}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={twoFAStyles.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-14%3A9?alt=media&token=e121ce9c-44e9-4002-ab3f-00dc50aa0fb7",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={twoFAStyles.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-14%3A7?alt=media&token=d5811a25-4c74-4eca-9fbb-a01736854bbf",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={twoFAStyles.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-14%3A8?alt=media&token=01b4d0d3-5360-4c38-8c14-0d354a720cf8",
             }}
           />
         </View>
         <Image
-          style={styles.Image7}
+          style={twoFAStyles.Image7}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-26%3A123?alt=media&token=6f0c3579-6050-4a37-b562-f20bb81b73bf",
           }}
         />
         <Image
-          style={styles.Image3}
+          style={twoFAStyles.Image3}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-26%3A121?alt=media&token=5b572832-e84b-46c6-9070-0dc8e1d94caa",
           }}
         />
         <Image
-          style={styles.Image8}
+          style={twoFAStyles.Image8}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-26%3A124?alt=media&token=63b37cd8-ce11-4283-ace6-90042af85199",
           }}
@@ -49,7 +49,7 @@ export default function TwoFA() {
   );
 }
 
-const styles = StyleSheet.create({
+const twoFAStyles = StyleSheet.create({
   _2faScreen: {
     display: "flex",
     flexDirection: "column",

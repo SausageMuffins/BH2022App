@@ -3,51 +3,51 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function EmployersMakeUpPayCompleted() {
   return (
-    <View style={styles.MeFinal}>
-      <View style={styles.Group778}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt523}>8:55</Text>
+    <View style={SubmissionStyle.MeFinal}>
+      <View style={SubmissionStyle.Group778}>
+        <View style={SubmissionStyle.Component2}>
+          <Text style={SubmissionStyle.Txt523}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={SubmissionStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zt4u4v7dhwq-I70%3A530%3B14%3A9?alt=media&token=95649e1e-38dc-41c1-8c8b-c22e5c55525e",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={SubmissionStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zt4u4v7dhwq-I70%3A530%3B14%3A7?alt=media&token=2bc59377-fbad-4bad-b69b-a97875573382",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={SubmissionStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zt4u4v7dhwq-I70%3A530%3B14%3A8?alt=media&token=a37aed25-f053-4d25-90ea-0a4d873021d5",
             }}
           />
         </View>
-        <View style={styles.Group991}>
-          <Text style={styles.Txt748}>Make Up Pay Submitted </Text>
+        <View style={SubmissionStyle.Group991}>
+          <Text style={SubmissionStyle.Txt748}>Make Up Pay Submitted </Text>
         </View>
         <Image
-          style={styles.Undraw_well_done_i2wr1}
+          style={SubmissionStyle.Undraw_well_done_i2wr1}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zt4u4v7dhwq-70%3A537?alt=media&token=9fbdebb6-8a3c-47c4-90a3-974183cf6661",
           }}
         />
-        <Text style={styles.Txt386}>
+        <Text style={SubmissionStyle.Txt386}>
           Congratulations on completing the Make Up Pay claims for employees.
           Please give up to 7 working days for submission to be processed.
         </Text>
-        <View style={styles.Group6910}>
-          <Text style={styles.Txt3107}>Back to Profile</Text>
+        <View style={SubmissionStyle.Group6910}>
+          <Text style={SubmissionStyle.Txt3107}>Back to Profile</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const SubmissionStyle = StyleSheet.create({
   MeFinal: {
     display: "flex",
     flexDirection: "column",

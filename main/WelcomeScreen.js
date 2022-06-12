@@ -1,52 +1,60 @@
 import React from "react";
-import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
+import { StyleSheet, Image, Text, View, ImageBackground, TouchableOpacity } from "react-native";
+import { createStackNavigator } from "@react-navigation/stack";
+import { useNavigation } from "@react-navigation/native";
+import { StackActions } from "@react-navigation/native";
+
+const Stack = createStackNavigator();
 
 export default function WelcomeScreen() {
+  const navigation = useNavigation();
   return (
-    <View style={styles.WelcomeScreen}>
-      <View style={styles.Group652}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt599}>8:55</Text>
+    <View style={welcomeScreenStyles.WelcomeScreen}>
+      <View style={welcomeScreenStyles.Group652}>
+        <View style={welcomeScreenStyles.Component2}>
+          <Text style={welcomeScreenStyles.Txt599}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={welcomeScreenStyles.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/nfgw2p06bac-I30%3A31%3B14%3A9?alt=media&token=c9da52c2-cb62-4fae-939e-c1248ad894f5",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={welcomeScreenStyles.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/nfgw2p06bac-I30%3A31%3B14%3A7?alt=media&token=1380cac4-9185-45a7-aca3-ae1dfa3543d7",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={welcomeScreenStyles.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/nfgw2p06bac-I30%3A31%3B14%3A8?alt=media&token=756abd86-77c3-4a8e-828c-3aabd8234f67",
             }}
           />
         </View>
-        <View style={styles.Group813}>
-          <Text style={styles.Txt594}>Welcome to NS ONE</Text>
+        <View style={welcomeScreenStyles.Group813}>
+          <Text style={welcomeScreenStyles.Txt594}>Welcome to NS ONE</Text>
         </View>
         <Image
-          style={styles.Undraw_checking_boxes_re_9h8m11}
+          style={welcomeScreenStyles.Undraw_checking_boxes_re_9h8m11}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/nfgw2p06bac-26%3A125?alt=media&token=24591a03-4597-4c02-a834-8963728d1437",
           }}
         />
-        <Text style={styles.Txt481}>
+        <Text style={welcomeScreenStyles.Txt481}>
           Your one-stop app for all of your yearly NSmen obligations
         </Text>
-        <View style={styles.Group952}>
-          <Text style={styles.Txt330}>Login</Text>
+        <View style={welcomeScreenStyles.Group952}>
+        <TouchableOpacity onPress={() => navigation.navigate('TwoFAScreen')}>
+          <Text style={welcomeScreenStyles.Txt330}>Login</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const welcomeScreenStyles = StyleSheet.create({
   WelcomeScreen: {
     display: "flex",
     flexDirection: "column",
@@ -150,3 +158,6 @@ const styles = StyleSheet.create({
     color: "rgba(0,0,0,0.65)",
   },
 });
+
+
+

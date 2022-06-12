@@ -3,134 +3,134 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function ReviewSubmission() {
   return (
-    <View style={styles.ReviewSubmission}>
-      <View style={styles.Group728}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt281}>8:55</Text>
+    <View style={ConfirmationStyle.ReviewSubmission}>
+      <View style={ConfirmationStyle.Group728}>
+        <View style={ConfirmationStyle.Component2}>
+          <Text style={ConfirmationStyle.Txt281}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={ConfirmationStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-I71%3A382%3B14%3A9?alt=media&token=d9e8d49b-1a57-48ff-a097-a97094fb9999",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={ConfirmationStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-I71%3A382%3B14%3A7?alt=media&token=d1e2bde6-c211-4faf-8853-40315c0deb15",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={ConfirmationStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-I71%3A382%3B14%3A8?alt=media&token=6e3fd394-d3a7-4e8e-9a5a-4c91f1432a04",
             }}
           />
         </View>
-        <View style={styles.Group742}>
-          <View style={styles.Group819}>
-            <Text style={styles.Txt163}>Review</Text>
+        <View style={ConfirmationStyle.Group742}>
+          <View style={ConfirmationStyle.Group819}>
+            <Text style={ConfirmationStyle.Txt163}>Review</Text>
             <Image
-              style={styles.Vector3}
+              style={ConfirmationStyle.Vector3}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A400?alt=media&token=87aaf535-325f-4beb-add7-62da938f3bff",
               }}
             />
             <Image
-              style={styles.Vector3}
+              style={ConfirmationStyle.Vector3}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A660?alt=media&token=75de3b39-13f9-4b2a-a958-36eb1d8d8e75",
               }}
             />
             <Image
-              style={styles.Vector4}
+              style={ConfirmationStyle.Vector4}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A401?alt=media&token=a5b7bd41-6200-4053-a20c-b1706f2077b3",
               }}
             />
             <Image
-              style={styles.Vector5}
+              style={ConfirmationStyle.Vector5}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A398?alt=media&token=7a7d6cfd-81db-43dd-9026-bafbf43f8dc2",
               }}
             />
           </View>
-          <Text style={styles.Txt897}>Make Up Pay </Text>
+          <Text style={ConfirmationStyle.Txt897}>Make Up Pay </Text>
         </View>
-        <View style={styles.Group309}>
-          <View style={styles.Group213}>
-            <Text style={styles.Txt795}>Review your submission</Text>
-            <Text style={styles.Txt609}>CAIFAN Engineering Pte. Ltd.</Text>
+        <View style={ConfirmationStyle.Group309}>
+          <View style={ConfirmationStyle.Group213}>
+            <Text style={ConfirmationStyle.Txt795}>Review your submission</Text>
+            <Text style={ConfirmationStyle.Txt609}>CAIFAN Engineering Pte. Ltd.</Text>
           </View>
-          <View style={styles.Group133}>
-            <View style={styles.Line1} />
-            <Text style={styles.Txt128}>Claim Option</Text>
-            <View style={styles.Frame2}>
-              <Text style={styles.Txt918}>Average Income</Text>
+          <View style={ConfirmationStyle.Group133}>
+            <View style={ConfirmationStyle.Line1} />
+            <Text style={ConfirmationStyle.Txt128}>Claim Option</Text>
+            <View style={ConfirmationStyle.Frame2}>
+              <Text style={ConfirmationStyle.Txt918}>Average Income</Text>
             </View>
             <Image
-              style={styles.Vector6}
+              style={ConfirmationStyle.Vector6}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A581?alt=media&token=3e67fff0-db8c-4618-962b-af4d70fa5605",
               }}
             />
           </View>
-          <View style={styles.Group7210}>
-            <Text style={styles.Txt944}>Payslip Upload</Text>
-            <Text style={styles.Txt747}>Michael Wang_Co....pdf</Text>
+          <View style={ConfirmationStyle.Group7210}>
+            <Text style={ConfirmationStyle.Txt944}>Payslip Upload</Text>
+            <Text style={ConfirmationStyle.Txt747}>Michael Wang_Co....pdf</Text>
             <Image
-              style={styles.Vector6}
+              style={ConfirmationStyle.Vector6}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A582?alt=media&token=4e8ea218-74aa-4397-a0b0-d3e7168f56e6",
               }}
             />
           </View>
-          <View style={styles.Line2} />
-          <View style={styles.Group7210}>
-            <Text style={styles.Txt143}>NS/SV Training</Text>
+          <View style={ConfirmationStyle.Line2} />
+          <View style={ConfirmationStyle.Group7210}>
+            <Text style={ConfirmationStyle.Txt143}>NS/SV Training</Text>
             <Image
-              style={styles.Vector6}
+              style={ConfirmationStyle.Vector6}
               source={{
                 uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96vxv0w9kc8-71%3A583?alt=media&token=6e787179-db9c-4be2-ae9d-3ee45d2cad62",
               }}
             />
           </View>
-          <View style={styles.Group1019}>
-            <Text style={styles.Txt684}>Start Date</Text>
-            <Text style={styles.Txt609}>15/03/2022</Text>
+          <View style={ConfirmationStyle.Group1019}>
+            <Text style={ConfirmationStyle.Txt684}>Start Date</Text>
+            <Text style={ConfirmationStyle.Txt609}>15/03/2022</Text>
           </View>
-          <View style={styles.Group1019}>
-            <Text style={styles.Txt284}>End Date</Text>
-            <Text style={styles.Txt609}>31/03/2022</Text>
+          <View style={ConfirmationStyle.Group1019}>
+            <Text style={ConfirmationStyle.Txt284}>End Date</Text>
+            <Text style={ConfirmationStyle.Txt609}>31/03/2022</Text>
           </View>
-          <View style={styles.Group929}>
-            <Text style={styles.Txt774}>Occupation/ Designation</Text>
-            <Text style={styles.Txt609}>Principle Engineer</Text>
+          <View style={ConfirmationStyle.Group929}>
+            <Text style={ConfirmationStyle.Txt774}>Occupation/ Designation</Text>
+            <Text style={ConfirmationStyle.Txt609}>Principle Engineer</Text>
           </View>
-          <View style={styles.Group316}>
-            <Text style={styles.Txt8210}>Address</Text>
-            <Text style={styles.Txt609}>5 Cai Fan Lane, Singapore 324533</Text>
+          <View style={ConfirmationStyle.Group316}>
+            <Text style={ConfirmationStyle.Txt8210}>Address</Text>
+            <Text style={ConfirmationStyle.Txt609}>5 Cai Fan Lane, Singapore 324533</Text>
           </View>
-          <Text style={styles.Txt941}>Company Particulars</Text>
-          <View style={styles.Group316}>
-            <Text style={styles.Txt361}>Phone</Text>
-            <Text style={styles.Txt609}>6570 3498</Text>
+          <Text style={ConfirmationStyle.Txt941}>Company Particulars</Text>
+          <View style={ConfirmationStyle.Group316}>
+            <Text style={ConfirmationStyle.Txt361}>Phone</Text>
+            <Text style={ConfirmationStyle.Txt609}>6570 3498</Text>
           </View>
         </View>
-        <View style={styles.Group767}>
-          <Text style={styles.Txt399}>Submit</Text>
+        <View style={ConfirmationStyle.Group767}>
+          <Text style={ConfirmationStyle.Txt399}>Submit</Text>
         </View>
-        <View style={styles.Group9810}>
-          <Text style={styles.Txt399}>Save and Go Back</Text>
+        <View style={ConfirmationStyle.Group9810}>
+          <Text style={ConfirmationStyle.Txt399}>Save and Go Back</Text>
         </View>
       </View>
-      <View style={styles.Group52}>
-        <Text style={styles.Txt156}>Delete application</Text>
+      <View style={ConfirmationStyle.Group52}>
+        <Text style={ConfirmationStyle.Txt156}>Delete application</Text>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const ConfirmationStyle = StyleSheet.create({
   ReviewSubmission: {
     display: "flex",
     flexDirection: "column",

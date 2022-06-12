@@ -3,87 +3,87 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function UploadTimesheet() {
   return (
-    <View style={styles.UploadTimesheet}>
-      <View style={styles.Group7106}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt4410}>8:55</Text>
+    <View style={TimesheetStyles.UploadTimesheet}>
+      <View style={TimesheetStyles.Group7106}>
+        <View style={TimesheetStyles.Component2}>
+          <Text style={TimesheetStyles.Txt4410}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={TimesheetStyles.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-I70%3A332%3B14%3A9?alt=media&token=ad920c35-f4d4-48f6-bd31-c16406cca997",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={TimesheetStyles.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-I70%3A332%3B14%3A7?alt=media&token=4f797f04-04b1-403d-aa13-b1eb0cfb8229",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={TimesheetStyles.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-I70%3A332%3B14%3A8?alt=media&token=e906c0de-af28-4fda-9fc4-9137b99fec73",
             }}
           />
         </View>
-        <View style={styles.Group765}>
-          <Text style={styles.Txt223}>Upload Hours</Text>
+        <View style={TimesheetStyles.Group765}>
+          <Text style={TimesheetStyles.Txt223}>Upload Hours</Text>
           <Image
-            style={styles.Vector3}
+            style={TimesheetStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-71%3A734?alt=media&token=b4670399-297b-404b-b0b6-b4727a99c307",
             }}
           />
           <Image
-            style={styles.Vector3}
+            style={TimesheetStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-71%3A735?alt=media&token=5f1aab67-3f37-4bca-a291-8b5001798fba",
             }}
           />
           <Image
-            style={styles.Vector3}
+            style={TimesheetStyles.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-71%3A736?alt=media&token=7bc4ec98-3515-4fd6-b203-77b90ac33adb",
             }}
           />
           <Image
-            style={styles.Vector4}
+            style={TimesheetStyles.Vector4}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-71%3A737?alt=media&token=323f14ae-42ff-48a1-88a0-56913e9218eb",
             }}
           />
         </View>
-        <View style={styles.Group53}>
-          <Text style={styles.Txt296}>Delete application</Text>
+        <View style={TimesheetStyles.Group53}>
+          <Text style={TimesheetStyles.Txt296}>Delete application</Text>
         </View>
-        <Text style={styles.Txt1088}>
+        <Text style={TimesheetStyles.Txt1088}>
           Please upload your employee’s working hours as a spreadsheet or excel
           file.
         </Text>
-        <View style={styles.Group59}>
-          <Text style={styles.Txt5910}>Michael Wang_Working Ho....xls</Text>
-          <View style={styles.Group397}>
-            <Text style={styles.Txt492}>Upload</Text>
+        <View style={TimesheetStyles.Group59}>
+          <Text style={TimesheetStyles.Txt5910}>Michael Wang_Working Ho....xls</Text>
+          <View style={TimesheetStyles.Group397}>
+            <Text style={TimesheetStyles.Txt492}>Upload</Text>
           </View>
         </View>
         <Image
-          style={styles.Group60}
+          style={TimesheetStyles.Group60}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/qeyfh3vxvx-71%3A1018?alt=media&token=a0d82d1e-3610-4a20-9b93-fea609f6424b",
           }}
         />
-        <View style={styles.Group1023}>
-          <Text style={styles.Txt1061}>Save and Continue</Text>
+        <View style={TimesheetStyles.Group1023}>
+          <Text style={TimesheetStyles.Txt1061}>Save and Continue</Text>
         </View>
-        <View style={styles.Group233}>
-          <Text style={styles.Txt1061}>Save and Go Back</Text>
+        <View style={TimesheetStyles.Group233}>
+          <Text style={TimesheetStyles.Txt1061}>Save and Go Back</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const TimesheetStyles = StyleSheet.create({
   UploadTimesheet: {
     display: "flex",
     flexDirection: "column",

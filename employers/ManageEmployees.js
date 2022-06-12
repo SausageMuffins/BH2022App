@@ -3,57 +3,57 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function ManageEmployees() {
   return (
-    <View style={styles.ManageEmployees}>
-      <View style={styles.Group183}>
-        <View style={styles.Component4}>
-          <Text style={styles.Txt667}>8:55</Text>
+    <View style={ManageEmployeesStyle.ManageEmployees}>
+      <View style={ManageEmployeesStyle.Group183}>
+        <View style={ManageEmployeesStyle.Component4}>
+          <Text style={ManageEmployeesStyle.Txt667}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={ManageEmployeesStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A9?alt=media&token=be93ecb7-20b9-4653-8672-f5a5eb5638e8",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={ManageEmployeesStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A7?alt=media&token=e9704e4c-06de-4f6c-81d0-9c63de15a8a7",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={ManageEmployeesStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A8?alt=media&token=8297e653-4529-4541-83dd-78218dac5dd8",
             }}
           />
         </View>
-        <View style={styles.Group858}>
-          <Text style={styles.Txt814}>Application for Employers</Text>
-          <Text style={styles.Txt814}>Application for Employers</Text>
+        <View style={ManageEmployeesStyle.Group858}>
+          <Text style={ManageEmployeesStyle.Txt814}>Application for Employers</Text>
+          <Text style={ManageEmployeesStyle.Txt814}>Application for Employers</Text>
         </View>
-        <View style={styles.Group451}>
+        <View style={ManageEmployeesStyle.Group451}>
           <Image
-            style={styles.Undraw_fill_form_re_cwyf11}
+            style={ManageEmployeesStyle.Undraw_fill_form_re_cwyf11}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-70%3A284?alt=media&token=8278a94f-658d-4db3-bb25-533f08aea479",
             }}
           />
         </View>
-        <Text style={styles.multiple1}>
+        <Text style={ManageEmployeesStyle.multiple1}>
           Start New Application to begin your Make Up Pay claim. Resume
           Application to continue from where you previously left off.
         </Text>
-        <View style={styles.Group57}>
-          <Text style={styles.Txt10102}>Start New Application</Text>
+        <View style={ManageEmployeesStyle.Group57}>
+          <Text style={ManageEmployeesStyle.Txt10102}>Start New Application</Text>
         </View>
-        <View style={styles.Group56}>
-          <Text style={styles.Txt10102}>Resume Application</Text>
+        <View style={ManageEmployeesStyle.Group56}>
+          <Text style={ManageEmployeesStyle.Txt10102}>Resume Application</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const ManageEmployeesStyle = StyleSheet.create({
   ManageEmployees: {
     display: "flex",
     flexDirection: "column",

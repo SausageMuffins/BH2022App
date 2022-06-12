@@ -3,53 +3,53 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function ManageMakeUpPay() {
   return (
-    <View style={styles.ManageMakeUpPay}>
-      <Text style={styles.Txt758}>Application for Employees</Text>
-      <View style={styles.Group321}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt687}>8:55</Text>
+    <View style={ManageMakeUpPayStyle.ManageMakeUpPay}>
+      <Text style={ManageMakeUpPayStyle.Txt758}>Application for Employees</Text>
+      <View style={ManageMakeUpPayStyle.Group321}>
+        <View style={ManageMakeUpPayStyle.Component2}>
+          <Text style={ManageMakeUpPayStyle.Txt687}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={ManageMakeUpPayStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/upjbvx8bps-I26%3A286%3B14%3A9?alt=media&token=f48ed22b-52c6-4148-8a5d-e4fa7c398a7c",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={ManageMakeUpPayStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/upjbvx8bps-I26%3A286%3B14%3A7?alt=media&token=fdd6d690-aa53-4611-b4de-330ad8904e11",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={ManageMakeUpPayStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/upjbvx8bps-I26%3A286%3B14%3A8?alt=media&token=8a53c73d-60e6-4c23-ad21-131195f0d741",
             }}
           />
         </View>
-        <View style={styles.Rectangle9} />
+        <View style={ManageMakeUpPayStyle.Rectangle9} />
         <Image
-          style={styles.Undraw_printing_invoices_5R4r1}
+          style={ManageMakeUpPayStyle.Undraw_printing_invoices_5R4r1}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/upjbvx8bps-26%3A377?alt=media&token=707299b4-ebed-4b09-9599-33d6b4ec7d51",
           }}
         />
-        <Text style={styles.multiple1}>
+        <Text style={ManageMakeUpPayStyle.multiple1}>
           Start New Application to begin your Make Up Pay claim. Resume
           Application to continue from where you previously left off.
         </Text>
-        <View style={styles.Group54}>
-          <Text style={styles.Txt9109}>Start New Application</Text>
+        <View style={ManageMakeUpPayStyle.Group54}>
+          <Text style={ManageMakeUpPayStyle.Txt9109}>Start New Application</Text>
         </View>
-        <View style={styles.Group55}>
-          <Text style={styles.Txt9109}>Resume Application</Text>
+        <View style={ManageMakeUpPayStyle.Group55}>
+          <Text style={ManageMakeUpPayStyle.Txt9109}>Resume Application</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const ManageMakeUpPayStyle = StyleSheet.create({
   ManageMakeUpPay: {
     display: "flex",
     flexDirection: "column",

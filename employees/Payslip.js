@@ -3,79 +3,79 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function UploadPaySlip() {
   return (
-    <View style={styles.UploadPaySlip}>
-      <View style={styles.Group579}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt9810}>8:55</Text>
+    <View style={PayslipStyle.UploadPaySlip}>
+      <View style={PayslipStyle.Group579}>
+        <View style={PayslipStyle.Component2}>
+          <Text style={PayslipStyle.Txt9810}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={PayslipStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-I26%3A488%3B14%3A9?alt=media&token=b7fc2977-7401-4604-ab80-f55af2e6daf7",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={PayslipStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-I26%3A488%3B14%3A7?alt=media&token=52a84b8b-68bf-4925-853e-f388a9f63550",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={PayslipStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-I26%3A488%3B14%3A8?alt=media&token=19f7e352-0aee-4dd8-8fa3-99482d8ca33b",
             }}
           />
         </View>
-        <Text style={styles.Txt8210}>
+        <Text style={PayslipStyle.Txt8210}>
           Please upload your past 6 month’s net income as one PDF
         </Text>
-        <View style={styles.Group680}>
-          <Text style={styles.Txt267}>Michael Wang_Compiled Pay....pdf</Text>
+        <View style={PayslipStyle.Group680}>
+          <Text style={PayslipStyle.Txt267}>Michael Wang_Compiled Pay....pdf</Text>
         </View>
         <Image
-          style={styles.Group57}
+          style={PayslipStyle.Group57}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-71%3A672?alt=media&token=511ca2c5-b35c-4753-8567-976c2d0ab62a",
           }}
         />
-        <View style={styles.Group329}>
-          <Text style={styles.Txt748}>Save and Continue</Text>
+        <View style={PayslipStyle.Group329}>
+          <Text style={PayslipStyle.Txt748}>Save and Continue</Text>
         </View>
-        <View style={styles.Group451}>
-          <Text style={styles.Txt748}>Save and Go Back</Text>
+        <View style={PayslipStyle.Group451}>
+          <Text style={PayslipStyle.Txt748}>Save and Go Back</Text>
         </View>
       </View>
-      <View style={styles.Group961}>
-        <Text style={styles.Txt257}>Upload</Text>
+      <View style={PayslipStyle.Group961}>
+        <Text style={PayslipStyle.Txt257}>Upload</Text>
       </View>
-      <View style={styles.Group50}>
-        <Text style={styles.Txt978}>Delete application</Text>
+      <View style={PayslipStyle.Group50}>
+        <Text style={PayslipStyle.Txt978}>Delete application</Text>
       </View>
-      <View style={styles.Group51}>
-        <Text style={styles.Txt978}>Delete application</Text>
+      <View style={PayslipStyle.Group51}>
+        <Text style={PayslipStyle.Txt978}>Delete application</Text>
       </View>
-      <View style={styles.Group016}>
-        <Text style={styles.Txt575}>Upload Payslip</Text>
+      <View style={PayslipStyle.Group016}>
+        <Text style={PayslipStyle.Txt575}>Upload Payslip</Text>
         <Image
-          style={styles.Vector3}
+          style={PayslipStyle.Vector3}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-71%3A544?alt=media&token=69fcd88a-7328-4038-9939-c2638cb493f2",
           }}
         />
         <Image
-          style={styles.Vector4}
+          style={PayslipStyle.Vector4}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-71%3A543?alt=media&token=231149f7-8116-444f-a691-0dea5f692bdb",
           }}
         />
         <Image
-          style={styles.Vector3}
+          style={PayslipStyle.Vector3}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-71%3A545?alt=media&token=2699689b-8fb0-411d-8e0f-a12da7bc83cc",
           }}
         />
         <Image
-          style={styles.Vector5}
+          style={PayslipStyle.Vector5}
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/bvl5gr1bx5d-71%3A546?alt=media&token=76f10528-82aa-4730-a8d0-3f1c04e42c52",
           }}
@@ -85,7 +85,7 @@ export default function UploadPaySlip() {
   );
 }
 
-const styles = StyleSheet.create({
+const PayslipStyle = StyleSheet.create({
   UploadPaySlip: {
     display: "flex",
     flexDirection: "column",

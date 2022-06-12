@@ -1,9 +1,11 @@
 import React from "react";
 import { StyleSheet, View, Text, Image, ImageBackground } from "react-native";
+import { NavigationContainer, useNavigaton } from "@react-navigation/native";
 
 import WelcomeScreen from "./main/WelcomeScreen";
 import Profile from "./main/Profile";
 import TwoFA from "./main/TwoFA";
+import Main from './main/Main'
 
 import ManageMakeUpPay from "./employees/ManageMakeUpPay";
 import ClaimsOptions from "./employees/ClaimsOptions";
@@ -22,5 +24,8 @@ import EmployersMakeUpPayCompleted from "./employers/Submission";
 import { useFonts } from "expo-font";
 
 export default function App() {
-  return <EmployersReviewSubmission />;
+  return <NavigationContainer>
+  <Main/>
+  </NavigationContainer>;
 }
+

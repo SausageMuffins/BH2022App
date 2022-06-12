@@ -3,82 +3,82 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
 export default function ClaimsOptions() {
   return (
-    <View style={styles.ClaimsOptions}>
-      <View style={styles.Group035}>
-        <View style={styles.Component4}>
-          <Text style={styles.Txt945}>8:55</Text>
+    <View style={ClaimsOptionsStyle.ClaimsOptions}>
+      <View style={ClaimsOptionsStyle.Group035}>
+        <View style={ClaimsOptionsStyle.Component4}>
+          <Text style={ClaimsOptionsStyle.Txt945}>8:55</Text>
           <Image
-            style={styles.Vector}
+            style={ClaimsOptionsStyle.Vector}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-I75%3A716%3B14%3A9?alt=media&token=1b5cf93e-d028-4f86-a968-4d4aaf9aa45a",
             }}
           />
           <Image
-            style={styles.Vector1}
+            style={ClaimsOptionsStyle.Vector1}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-I75%3A716%3B14%3A7?alt=media&token=bfd4f10a-88df-49e1-9dd9-13e8970b2c4c",
             }}
           />
           <Image
-            style={styles.Vector2}
+            style={ClaimsOptionsStyle.Vector2}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-I75%3A716%3B14%3A8?alt=media&token=fa7bc94e-f9d7-4f49-bb2e-c477e3bdf2cf",
             }}
           />
         </View>
-        <View style={styles.Group823}>
-          <Text style={styles.Txt533}>Claim Options</Text>
+        <View style={ClaimsOptionsStyle.Group823}>
+          <Text style={ClaimsOptionsStyle.Txt533}>Claim Options</Text>
           <Image
-            style={styles.Vector3}
+            style={ClaimsOptionsStyle.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-71%3A537?alt=media&token=34f47283-7729-4659-90b8-8ab85ea18e1f",
             }}
           />
           <Image
-            style={styles.Vector4}
+            style={ClaimsOptionsStyle.Vector4}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-75%3A727?alt=media&token=8c5aea56-c617-4bd0-8766-9dacd250c53b",
             }}
           />
           <Image
-            style={styles.Vector3}
+            style={ClaimsOptionsStyle.Vector3}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-75%3A729?alt=media&token=297cd230-7833-4aff-af2a-437932375a20",
             }}
           />
           <Image
-            style={styles.Vector5}
+            style={ClaimsOptionsStyle.Vector5}
             source={{
               uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/4332bjuct29-75%3A730?alt=media&token=f8c19176-6f2c-4a02-be29-117c29487a01",
             }}
           />
         </View>
-        <View style={styles.Group52}>
-          <Text style={styles.Txt732}>Delete application</Text>
+        <View style={ClaimsOptionsStyle.Group52}>
+          <Text style={ClaimsOptionsStyle.Txt732}>Delete application</Text>
         </View>
-        <Text style={styles.Txt165}>Please select your claim option</Text>
-        <View style={styles.Group784}>
-          <Text style={styles.Txt494}>Income Tax</Text>
+        <Text style={ClaimsOptionsStyle.Txt165}>Please select your claim option</Text>
+        <View style={ClaimsOptionsStyle.Group784}>
+          <Text style={ClaimsOptionsStyle.Txt494}>Income Tax</Text>
         </View>
-        <View style={styles.Group932}>
-          <Text style={styles.Txt737}>✓</Text>
-          <Text style={styles.Txt494}>Average Income</Text>
+        <View style={ClaimsOptionsStyle.Group932}>
+          <Text style={ClaimsOptionsStyle.Txt737}>✓</Text>
+          <Text style={ClaimsOptionsStyle.Txt494}>Average Income</Text>
         </View>
-        <View style={styles.Group901}>
-          <Text style={styles.Txt494}>Replacement</Text>
+        <View style={ClaimsOptionsStyle.Group901}>
+          <Text style={ClaimsOptionsStyle.Txt494}>Replacement</Text>
         </View>
-        <View style={styles.Group417}>
-          <Text style={styles.Txt428}>Save and Continue</Text>
+        <View style={ClaimsOptionsStyle.Group417}>
+          <Text style={ClaimsOptionsStyle.Txt428}>Save and Continue</Text>
         </View>
-        <View style={styles.Group792}>
-          <Text style={styles.Txt428}>Save and Go Back</Text>
+        <View style={ClaimsOptionsStyle.Group792}>
+          <Text style={ClaimsOptionsStyle.Txt428}>Save and Go Back</Text>
         </View>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const ClaimsOptionsStyle = StyleSheet.create({
   ClaimsOptions: {
     display: "flex",
     flexDirection: "column",
