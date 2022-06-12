@@ -106,7 +106,6 @@ const styles = StyleSheet.create({
   },
   Txt945: {
     fontSize: 16,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,1)",
     marginRight: 229,
@@ -137,7 +136,6 @@ const styles = StyleSheet.create({
   },
   Txt533: {
     fontSize: 26,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(255, 255, 255, 1)",
     marginRight: 55,
@@ -174,7 +172,6 @@ const styles = StyleSheet.create({
   },
   Txt732: {
     fontSize: 16,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(249,0,0,0.9)",
     textAlign: "center",
@@ -185,7 +182,6 @@ const styles = StyleSheet.create({
 
   Txt165: {
     fontSize: 23,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,0.85)",
     textAlign: "center",
@@ -208,7 +204,6 @@ const styles = StyleSheet.create({
   },
   Txt494: {
     fontSize: 24,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,0.65)",
   },
@@ -232,14 +227,12 @@ const styles = StyleSheet.create({
   },
   Txt737: {
     fontSize: 32,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,1)",
     marginRight: 58,
   },
   Txt494: {
     fontSize: 24,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,0.65)",
   },
@@ -260,7 +253,6 @@ const styles = StyleSheet.create({
   },
   Txt494: {
     fontSize: 24,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,0.65)",
   },
@@ -278,7 +270,6 @@ const styles = StyleSheet.create({
   },
   Txt428: {
     fontSize: 22,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(29,129,20,1)",
   },
@@ -295,7 +286,6 @@ const styles = StyleSheet.create({
   },
   Txt428: {
     fontSize: 22,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(29,129,20,1)",
   },
