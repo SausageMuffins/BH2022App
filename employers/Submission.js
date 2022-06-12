@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
-export default function MeFinal() {
+export default function EmployersMakeUpPayCompleted() {
   return (
     <View style={styles.MeFinal}>
       <View style={styles.Group778}>

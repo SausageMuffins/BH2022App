@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
-export default function ReviewSubmission() {
+export default function EmployersReviewSubmission() {
   return (
     <View style={styles.ReviewSubmission}>
       <View style={styles.Group376}>
