@@ -1,46 +1,52 @@
 import React from "react";
 import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
-export default function MakeUpPayCompleted() {
+export default function ManageEmployees() {
   return (
-    <View style={styles.MakeUpPayCompleted}>
-      <View style={styles.Group899}>
-        <View style={styles.Component2}>
-          <Text style={styles.Txt417}>8:55</Text>
+    <View style={styles.ManageEmployees}>
+      <View style={styles.Group183}>
+        <View style={styles.Component4}>
+          <Text style={styles.Txt667}>8:55</Text>
           <Image
             style={styles.Vector}
             source={{
-              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/jne0ig51jdq-I26%3A941%3B14%3A9?alt=media&token=64f12993-69e9-4083-ac97-84054cb2246a",
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A9?alt=media&token=be93ecb7-20b9-4653-8672-f5a5eb5638e8",
             }}
           />
           <Image
             style={styles.Vector1}
             source={{
-              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/jne0ig51jdq-I26%3A941%3B14%3A7?alt=media&token=a0a4ea39-d6eb-4fbf-89dd-6aeaea54dd7d",
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A7?alt=media&token=e9704e4c-06de-4f6c-81d0-9c63de15a8a7",
             }}
           />
           <Image
             style={styles.Vector2}
             source={{
-              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/jne0ig51jdq-I26%3A941%3B14%3A8?alt=media&token=4fc0d73e-d186-4c5a-a0ba-e3a96c929a29",
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-I71%3A124%3B14%3A8?alt=media&token=8297e653-4529-4541-83dd-78218dac5dd8",
             }}
           />
         </View>
-        <View style={styles.Group190}>
-          <Text style={styles.Txt614}>Make Up Pay Submitted </Text>
+        <View style={styles.Group858}>
+          <Text style={styles.Txt814}>Application for Employers</Text>
+          <Text style={styles.Txt814}>Application for Employers</Text>
         </View>
-        <Image
-          style={styles.Undraw_well_done_i2wr1}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/jne0ig51jdq-26%3A1046?alt=media&token=492c1556-93ba-4765-959e-93b4367e150b",
-          }}
-        />
-        <Text style={styles.Txt1078}>
-          Congratulations on completing the Make Up Pay application Please give
-          up to 7 working days for payment to be received.
+        <View style={styles.Group451}>
+          <Image
+            style={styles.Undraw_fill_form_re_cwyf11}
+            source={{
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/78bjvtppqt-70%3A284?alt=media&token=8278a94f-658d-4db3-bb25-533f08aea479",
+            }}
+          />
+        </View>
+        <Text style={styles.multiple1}>
+          Start New Application to begin your Make Up Pay claim. Resume
+          Application to continue from where you previously left off.
         </Text>
-        <View style={styles.Group366}>
-          <Text style={styles.Txt712}>Back to Profile</Text>
+        <View style={styles.Group57}>
+          <Text style={styles.Txt10102}>Start New Application</Text>
+        </View>
+        <View style={styles.Group56}>
+          <Text style={styles.Txt10102}>Resume Application</Text>
         </View>
       </View>
     </View>
@@ -48,34 +54,33 @@ export default function MakeUpPayCompleted() {
 }
 
 const styles = StyleSheet.create({
-  MakeUpPayCompleted: {
+  ManageEmployees: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "flex-start",
     paddingTop: 13,
-    paddingBottom: 98,
+    paddingBottom: 97,
     paddingLeft: 0,
     paddingRight: 0,
-    backgroundColor: "rgba(229,245,223,1)",
+    backgroundColor: "rgba(225,237,255,1)",
     width: 428,
     height: 926,
   },
-  Group899: {
+  Group183: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
   },
-  Component2: {
+  Component4: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "flex-start",
-    marginBottom: 11,
+    marginBottom: 10,
   },
-  Txt417: {
+  Txt667: {
     fontSize: 16,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
     color: "rgba(0,0,0,1)",
     marginRight: 229,
@@ -95,54 +100,79 @@ const styles = StyleSheet.create({
     height: 12.5,
   },
 
-  Group190: {
-    paddingTop: 14,
-    paddingBottom: 13,
-    paddingLeft: 63,
-    paddingRight: 60,
-    marginBottom: 84,
-    backgroundColor: "rgba(29,129,20,1)",
+  Group858: {
+    marginBottom: 40,
+    backgroundColor: "rgba(69,140,246,1)",
     width: 428,
     height: 61,
   },
-  Txt614: {
+  Txt814: {
     fontSize: 26,
-    fontFamily: "Inter, sans-serif",
+    fontWeight: "700",
+    color: "rgba(255, 255, 255, 1)",
+  },
+  Txt814: {
+    fontSize: 26,
     fontWeight: "700",
     color: "rgba(255, 255, 255, 1)",
   },
 
-  Undraw_well_done_i2wr1: {
-    width: 345,
-    height: 311,
-    marginBottom: 92,
+  Group451: {
+    paddingTop: 41,
+    paddingBottom: 17,
+    paddingLeft: 27,
+    paddingRight: 27,
+    marginBottom: 79,
+    borderRadius: 169,
+    backgroundColor: "rgba(255, 255, 255, 0.76)",
+    width: 338,
+    height: 254,
   },
-  Txt1078: {
-    fontSize: 20,
-    fontFamily: "Inter, sans-serif",
-    fontWeight: "400",
-    color: "rgba(0,0,0,1)",
-    width: 372,
-    height: 114,
-    marginBottom: 69,
+  Undraw_fill_form_re_cwyf11: {
+    width: 282,
+    height: 194,
   },
-  Group366: {
+
+  multiple1: {
+    main: "Txt337",
+    seg1: "[object Object]",
+    seg2: "[object Object]",
+    seg3: "[object Object]",
+    seg4: "[object Object]",
+  },
+  Group57: {
     paddingTop: 11,
     paddingBottom: 9,
-    paddingLeft: 90,
-    paddingRight: 92,
+    paddingLeft: 51,
+    paddingRight: 50,
+    marginBottom: 32,
     borderRadius: 50,
     backgroundColor: "rgba(255, 255, 255, 1)",
     borderWidth: 1,
     borderStyle: "solid",
-    borderColor: "rgba(213,217,212,1)",
+    borderColor: "rgba(202,202,202,1)",
     width: 340,
     height: 50,
   },
-  Txt712: {
+  Txt10102: {
     fontSize: 22,
-    fontFamily: "Inter, sans-serif",
     fontWeight: "700",
-    color: "rgba(0,0,0,0.65)",
+    color: "rgba(29,129,20,1)",
+  },
+
+  Group56: {
+    paddingTop: 11,
+    paddingBottom: 9,
+    paddingLeft: 61,
+    paddingRight: 60,
+    borderRadius: 50,
+    backgroundColor: "rgba(255, 255, 255, 1)",
+    width: 340,
+    height: 50,
+  },
+  Txt10102: {
+    fontSize: 22,
+    fontWeight: "700",
+    color: "rgba(29,129,20,1)",
   },
 });
