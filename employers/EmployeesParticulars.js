@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
 
-export default function EmployeeSDetails() {
+export default function EmployeesDetails() {
   return (
     <View style={EmployeesParticulars.EmployeeSDetails}>
       <View style={EmployeesParticulars.Group352}>

@@ -41,6 +41,7 @@ function WelcomeScreenLoad() {
   );
 }
 
+
 function TwoFALoad() {
   const navigation = useNavigation();
   return (
@@ -59,7 +60,7 @@ function TwoFALoad() {
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/87uxkuj51v7-26%3A121?alt=media&token=5b572832-e84b-46c6-9070-0dc8e1d94caa",
           }}
         />
-      </TouchableHighlight>
+        </TouchableHighlight>
         <Image
           style={twoFAStyles.Image3}
           source={{
@@ -171,13 +172,13 @@ export default function MainStack() {
       <Stack.Screen name="WelcomeScreen" component={WelcomeScreenLoad} options={{ headerShown: false }}/>
       <Stack.Screen name="TwoFAScreen" component={TwoFALoad} options={{ headerShown: false }}/>
       <Stack.Screen name="ProfileScreen" component={ProfileLoad} options={{ headerShown: false }}/>
-      <Stack.Screen name="Employees" component={EmployeesStack} options={{ headerShown: false }}/>
+      <Stack.Screen name="Employees" component={EmployeesStack} options={{ headerShown: false }}/>  
     </Stack.Navigator>
   );
 }
 
 
-// WeclcomeScreen styles
+// WelcomeScreen styles
 const welcomeScreenStyles = StyleSheet.create({
   WelcomeScreen: {
     display: "flex",
